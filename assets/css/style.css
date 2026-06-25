@@ -148,7 +148,7 @@ from{
 background-clip: text;
 -webkit-text-fill-color:transparent ; 
 color:transparent;
-background-color: darksalmon;
+/* background-color: darksalmon; */
 }
 to{
     background-color:pink;
