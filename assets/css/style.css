@@ -148,9 +148,83 @@ from{
 background-clip: text;
 -webkit-text-fill-color:transparent ; 
 color:transparent;
-/* background-color: darksalmon; */
+background-color: darksalmon;
 }
 to{
     background-color:pink;
 }
+}
+.Projects{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid black;
+    padding-top: 30px;
+    gap:20px;
+    background-color: lightyellow;
+    
+}
+
+.Projects img:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    border:1px outset black;
+    border-radius: 30px;
+    padding:30px;
+    margin:15px;
+    background-color: lightcyan;
+
+}
+.card .card-header1{
+    padding: 20px;
+    border-bottom: 2px inset black;
+    
+}
+.card .card-header2{
+    padding: 20px;
+    border-bottom: 2px inset black;
+    
+}
+.card .card-header3{
+    padding: 20px;
+    border-bottom: 2px inset black;
+    
+}
+.card-header1 img{
+width:100%;
+height:250px;
+object-fit: cover;
+}
+.card-header2 img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    }
+    .card-header3 img{
+        width:100%;
+        height:250px;
+        object-fit: cover;
+        }
+
+.card .card-body {
+    padding: 20px;
+    
+    text-align: center;
+    font-size: 30px;
+    
+}
+.card .card-footer{
+    padding:20px;
+    text-align: center;
+}
+.card-footer a{
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 50px;
+    padding:5px;
+    background-color:palevioletred;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
 }
