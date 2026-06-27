@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualification Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+</head>
+<body>
+  <section id="qualification">
+
+    <h4 class="name">Qualification</h4>
+    <h1 class="name1">My Qualification</h1>
+    <p class="text">My academic journey and educational background</p>
+
+    <div class="container">
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-school"></i>
+            </div>
+            <h2>10th grade</h2>
+            <p>Sophia Girls School</p>
+    <span class="year"><i class="fa-solid fa-calendar"></i>2021-2022</span>
+        
+        <hr>
+        <div class="star-icon">
+            <i class="fa-solid fa-star"></i>
+            <p><b>Percentage:</b>85%</p>
+        </div>
+        <div class="trophy-icon">
+            <i class="fa-solid fa-trophy"></i>
+            <p><b>Board:</b>ICSE</p>
+        </div>
+    </div>
+
+
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <h2>12th grade</h2>
+            <p>Sophia Girls School</p>
+    <span class="year"><i class="fa-solid fa-calendar"></i>2024-2025</span>
+        
+        <hr>
+        <div class="star-icon">
+            <i class="fa-solid fa-star"></i>
+            <p><b>Percentage:</b>82%</p>
+        </div>
+        <div class="trophy-icon">
+            <i class="fa-solid fa-trophy"></i>
+            <p><b>Board:</b>ICSE</p>
+        </div>
+         </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h2>BCA</h2>
+            <p>Pt Deen Dayal Upadhyaya Management College</p>
+    <span class="year"><i class="fa-solid fa-calendar"></i>2026-present</span>
+        
+        <hr>
+        <div class="star-icon">
+            <i class="fa-solid fa-star"></i>
+            <p><b>CGPA:</b>7.21/10</p>
+        </div>
+        <div class="book-icon">
+            <i class="fa-solid fa-book-open"></i>
+            <p><b>Specialization:</b>Mern Stack Development</p>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="quote-box">
+        <i class="fa-solid fa-quote-left"></i>
+        <div class="quote-content">
+        <p>
+            Education is not the learning of facts,but the training of the mind to think.</p>
+            <h3>-Albert Einstein</h3>
+        </p>
+        </div>
+    </div>
+    </section>
+  
+</body>
+</html>
